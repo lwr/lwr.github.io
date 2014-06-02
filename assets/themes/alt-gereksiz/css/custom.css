@@ -1,0 +1,51 @@
+@import "syntax.css";
+@import "main.css";
+@import "normalize.css";
+
+main {
+  max-width: 48em;
+}
+
+h2, h3 {
+   margin-top: 8px;
+}
+
+.bridge-table {
+    background-color: transparent; color: darkblue;
+    margin-left: 1em;
+}
+
+.img-portrait, .img-landscape {
+    width: 100%;
+}
+
+
+ /* tag_box */
+.page_tag_box {
+  list-style: none;
+  margin: -0.5em 0 -0em 1px;
+  overflow: hidden; }
+
+.page_tag_box li {
+  font-size: 11px;
+  line-height: 24px; }
+
+.page_tag_box li i {
+  opacity: 0.9; }
+
+.page_tag_box.inline li {
+  float: left; }
+
+.page_tag_box a {
+  padding: 2px 4px;
+  margin: 2px;
+  background: #F8F8F8;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #CCC; }
+
+.page_tag_box a span {
+  vertical-align: super;
+}
+

@@ -1,6 +1,4 @@
----
-theme :
-  name : bootstrap-3
----
-{% include JB/setup %}
-{% include themes/bootstrap-3/default.html %}
+{% include custom/setup %}
+{% capture   theme_default_html %}themes/{{ site.theme.name }}/default.html{% endcapture %}
+{% include {{theme_default_html}} %}
+{% assign    theme_default_html = nil %}

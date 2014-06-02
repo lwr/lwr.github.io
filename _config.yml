@@ -3,19 +3,28 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+# pygments: true
+highlighter : pygments
+markdown: kramdown
+# markdown: redcarpet
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : No Zuo No Die Why You Try
+# tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : William Leung
+  email : williamleung2006@gmail.com
+  github : lwr
+  twitter : SoloCompany
+#  feedburner : feedname
+
+theme :
+  name : alt-gereksiz
+  # name : twitter
+  # name : mark-reid
+  # name : bootstrap-3
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +34,8 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://solocompany.co
+# production_url : http://lwr.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -82,7 +92,8 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      # short_name : jekyllbootstrap
+      short_name : SoloCompany
     livefyre :
       site_id : 123
     intensedebate :
@@ -92,13 +103,14 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false
+    # provider : google 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :
@@ -116,7 +128,7 @@ JB :
   #
   sharing :
     provider : false
-    
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -127,4 +139,28 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
+redcarpet:
+  extensions:
+    - hard_wrap
+    # - no_intra_emphasis
+    # - autolink
+    - strikethrough
+    - fenced_code_blocks
+    - tables
+    - superscript
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  parse_block_html: true
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style

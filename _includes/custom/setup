@@ -1,0 +1,8 @@
+{% capture jbcache %}
+  {% include JB/setup %}
+  {% if site.JB.ASSET_PATH or page.theme %}
+    <!-- nothing to do (liquid do not even have a not operator, disgusting) -->
+  {% else %}
+    {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ site.theme.name }}{% endcapture %}
+  {% endif %}
+{% endcapture %}{% assign jbcache = nil %}

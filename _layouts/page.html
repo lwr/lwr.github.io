@@ -1,5 +1,7 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/bootstrap-3/page.html %}
+{% include custom/setup %}
+{% capture   theme_page_html %}themes/{{ site.theme.name }}/page.html{% endcapture %}
+{% include {{theme_page_html}} %}
+{% assign    theme_page_html = nil %}

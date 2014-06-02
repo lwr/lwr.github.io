@@ -8,3 +8,10 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+.idea/*
+*.xml
+
+_posts/.DS_Store
+
+_drafts/.DS_Store

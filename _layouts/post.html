@@ -1,5 +1,7 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/bootstrap-3/post.html %}
+{% include custom/setup %}
+{% capture   theme_post_html %}themes/{{ site.theme.name }}/post.html{% endcapture %}
+{% include {{theme_post_html}} %}
+{% assign    theme_post_html = nil %}

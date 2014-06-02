@@ -1,0 +1,29 @@
+<article>
+  <h1>
+    {{ page.title }}
+    {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}
+  </h1>
+
+  {% unless page.tags == empty %}
+  <ul class="page_tag_box inline">
+    <li><i class="icon-tags"></i></li>
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
+  </ul>
+  {% endunless %}
+
+  {{ content }}
+</article>
+
+<footer>
+   <div id="date" class="meta">
+      {{ page.date | date_to_string }}
+   </div>
+
+   <div id="return">
+      <a href="/">&laquo; Return to the home page</a>
+   </div>
+   <br>
+   <h2>Comments</h2>
+   {% include JB/comments %}
+</footer>
