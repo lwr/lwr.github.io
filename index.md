@@ -19,9 +19,11 @@ Follow me on [Twitter →](https://twitter.com/SoloCompany) （（ 才不是什�
   {% endfor %}
 </ul>
 
+<!---
 - - - - - - - - - -
 
 <blockquote style="color:gray;font-size:8pt;border-left:none;font-style:italic">
   有种没心没肺的东西叫快乐，我们每个人都有过，后来你长全了心肺，它就嫌你烦，不搭理你，等你做梦都乐意把自己当成年人时，它就干脆三十六计走为上了 …… // 249 //《士兵》
 
 </blockquote>
+-->
