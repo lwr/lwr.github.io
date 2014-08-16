@@ -22,7 +22,7 @@ title: 下载 4k 的 youtube 视频
 这个神器最大的亮点是可以自动合并优酷和土豆那些恶心的分段视频
 做了少量准备 (*proxifier* 挂全局代理) 后马上开动，然后没多久就下好了
 
-~~~
+````bash
 you-get 'http://www.youtube.com/watch?v=o_24LPjOIHI'
 
 Video Site: YouTube.com
@@ -32,7 +32,7 @@ Size:       79.75 MiB (83623035 Bytes)
 
 Downloading NORTHERN INDIA  4K (Ultra HD) 50-60fps.mp4 ...
 100.0% ( 79.7/79.7 MB) [========================================] 1/1
-~~~
+````
 
 囧~~
 
@@ -82,7 +82,7 @@ youtube-dl: error: you must provide at least one URL
 
 Youtube-DL 还是很强大的，可以列出所有的流，并且可以指定下载哪一个流
 
-~~~bash
+````bash
 ↪ git:master)$ youtube-dl -F 'http://www.youtube.com/watch?v=o_24LPjOIHI&noredirect=1'
 
 [youtube] Setting language
@@ -114,7 +114,7 @@ format code extension resolution  note
 43          webm      640x360
 18          mp4       640x360
 22          mp4       1280x720    (best)
-~~~
+````
 
 OK，革命已经成功了一大半，就剩下一个事情，合并视频流和音频流了
 
