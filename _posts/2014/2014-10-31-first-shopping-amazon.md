@@ -7,7 +7,9 @@ published: true
 title: 头一次海购的不愉快经历
 ---
 
-也不用多说了，看这个流水账
+败的地方: <http://www.amazon.com/gp/product/B00F3T0DKK/>
+品名: PLEMO Magic Cube
+过程: 也不多说了，看这个流水账吧
 
 | 日期     | 记录
 | -------- | ------------------------------------------------------------------------------
@@ -37,10 +39,13 @@ title: 头一次海购的不愉快经历
 
 **11月3日更新几张到货后的照片**
 
-![开箱，黑白双煞](http://photos-c.ak.instagram.com/hphotos-ak-xap1/1517340_725398067546874_167282729_n.jpg)
+[![开箱，黑白双煞](http://photos-c.ak.instagram.com/hphotos-ak-xap1/1517340_725398067546874_167282729_n.jpg)](http://instagram.com/p/u2TYmcH9M9/)
 
-![白煞，撸节操](http://photos-c.ak.instagram.com/hphotos-ak-xaf1/10731663_1478194159112194_1494912933_n.jpg)
+[![白煞，撸节操](http://photos-c.ak.instagram.com/hphotos-ak-xaf1/10731663_1478194159112194_1494912933_n.jpg)](http://instagram.com/p/u2TYmcH9M9/)
 
-![黑煞，VOX](http://photos-e.ak.instagram.com/hphotos-ak-xaf1/10727629_580327388761604_397379746_n.jpg)
+[![黑煞，VOX](http://photos-e.ak.instagram.com/hphotos-ak-xaf1/10727629_580327388761604_397379746_n.jpg)](http://instagram.com/p/u2TYmcH9M9/)
 
 此事正式告结
+
+
+
