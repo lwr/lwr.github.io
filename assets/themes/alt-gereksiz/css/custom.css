@@ -7,30 +7,34 @@ main {
     margin-top: 1em;
 }
 
+header {
+    min-width: 22em;
+}
+
 header img.logo {
-    vertical-align: -4em;
     width: 100px;
     height: 100px;
 }
 
 header h1.title {
-    text-align: right;
-    margin-left: 1em;
+    margin: 1.5em 1em;
+    float: right;
     font-size: 1em;
-    width: 80%;
 }
 
-header h1.title a {
-    font-weight: normal;
-    font-family: HelveticaNeue-Thin, "Helvetica Neue", Helvetica, Arial, sans-serif;
+header h1.title, header h1.title a {
+    font-weight: 200;
+    font-style: oblique;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 article {
-    margin-top: -2em;
+    margin-top: -2.3em;
 }
 
 article h1 {
     font-size: 1.5em;
+    font-style: oblique;
     text-align: right;
     padding-right: 0.5em;
 }
