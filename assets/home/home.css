@@ -1,11 +1,14 @@
 
 #banner-fade {
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 .banner-img {
     background-size:     100%;
     background-position: bottom;
     background-repeat:   no-repeat;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
 }
 .banner-img a { display: block; width: 100%; height:  100%; }
 
@@ -24,22 +27,22 @@ ol.bjqs-markers li a{display:inline-block;}
 p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
 
 
-ul.bjqs-controls li a{
+ul.bjqs-controls li a {
   display:block;
-  padding:4px;
+  padding:2px 8px;
   margin-top:4px;
   background:#fff;
   color:#000;
   text-decoration: none;
 }
 
-ul.bjqs-controls li a:hover{
+ul.bjqs-controls li a:hover {
   background:#000;
   color:#fff;
 }
 
-ol.bjqs-markers li a{
-  padding:4px 8px;
+ol.bjqs-markers li a {
+  padding:2px 8px;
   margin: 4px 2px 4px 2px;
   background:#000;
   color:#fff;

@@ -20,19 +20,19 @@ title: 这家伙很懒
     var imageList = [
         "/assets/home/Otter/4425238315_cf801e4e08_b.jpg:    10%",    //
         "/assets/home/HarpSeal/9197166267_9ca479c4bc_o.jpg: 80%",    //
+        "/assets/home/Otter/cac1ce12e59a563bd052662f65fcd589.jpg",
         "/assets/home/HarpSeal/2839526_172840877177_2.jpg:  center",
+        "/assets/home/Otter/5964623878_4c51e27aff_b.jpg  : 50%",
+        "/assets/home/HarpSeal/Baby_Seal_2.jpg",
+        "/assets/home/Otter/62973_small-cb1359744191.jpg : 50%",
         "/assets/home/HarpSeal/9199946140_693361cc26_o.jpg: 80%",
-        "/assets/home/HarpSeal/9199947200_e711f09e55_o.jpg",
         "/assets/home/HarpSeal/9199948412_5e39d33949_o.jpg: 0%", //
         "/assets/home/HarpSeal/1337256000000.cached.jpg",
         "/assets/home/HarpSeal/a-harp-seal-pup-lies-on-its-side-norbert-rosing.jpg",
-        "/assets/home/HarpSeal/Baby_Seal_2.jpg",
+        "/assets/home/HarpSeal/9199947200_e711f09e55_o.jpg",
         "/assets/home/HarpSeal/r9c6552-2-800x533.jpg: 50%",      //
         "/assets/home/HarpSeal/harp-seal-pup.jpg",
-        "/assets/home/Otter/cac1ce12e59a563bd052662f65fcd589.jpg",
         "/assets/home/Otter/enhanced-31254-1406586403-17.jpg",
-        "/assets/home/Otter/5964623878_4c51e27aff_b.jpg  : 50%",
-        "/assets/home/Otter/62973_small-cb1359744191.jpg : 50%",
         "/assets/home/Otter/Bath-Time-Sea-Otter-480x800.jpg"
     ];
 
@@ -50,25 +50,26 @@ title: 这家伙很懒
 
     $('#banner-fade').bjqs({
       width  : '640',
-      height : '400',
+      height : '360',
 
       // animation values
       animtype : 'fade',  // accepts 'fade' or 'slide'
       animduration : 500,  // how fast the animation are
       animspeed : 10000,   // the delay between each slide
 
-      prevtext : "<<",
-      nexttext : ">>",
+      prevtext : "<",
+      nexttext : ">",
       centercontrols : false,
 
       responsive : true
     });
+    $(".bjqs-markers li a").each(function(index, e) {
+        e.innerHTML = (1 + index).toString(36).toUpperCase();
+    });
 })(jQuery);
 </script>
 
-什么都懒得留下来（（（
-
-Follow me on [Twitter →](https://twitter.com/SoloCompany) （（ 才不是什么话痨
+Follow me on [Twitter →](https://twitter.com/SoloCompany) （（ 话痨指数 %10（（ 精神污染指数 80%
 
 ## Blog Posts
 
