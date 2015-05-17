@@ -53,7 +53,7 @@ title: 这家伙很懒
       height : '400',
 
       // animation values
-      animtype : 'slide',  // accepts 'fade' or 'slide'
+      animtype : 'fade',  // accepts 'fade' or 'slide'
       animduration : 500,  // how fast the animation are
       animspeed : 10000,   // the delay between each slide
 
