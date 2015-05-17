@@ -18,8 +18,8 @@ title: 这家伙很懒
 <script>
 (function($){
     var imageList = [
-        "/assets/home/HarpSeal/9197166267_9ca479c4bc_o.jpg: 80%",    //
         "/assets/home/Otter/4425238315_cf801e4e08_b.jpg:    10%",    //
+        "/assets/home/HarpSeal/9197166267_9ca479c4bc_o.jpg: 80%",    //
         "/assets/home/HarpSeal/2839526_172840877177_2.jpg:  center",
         "/assets/home/HarpSeal/9199946140_693361cc26_o.jpg: 80%",
         "/assets/home/HarpSeal/9199947200_e711f09e55_o.jpg",
