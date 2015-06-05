@@ -4,7 +4,7 @@ tagline:
 category: programmer
 tags:
 published: true
-title: URLClassLoader 的一个坑 
+title: 被 URLClassLoader 坑了一下
 ---
 
 我真的不喜欢写技术博客，但今天因为一个很小的事情浪费了不少时间，纯当吐个槽吧
