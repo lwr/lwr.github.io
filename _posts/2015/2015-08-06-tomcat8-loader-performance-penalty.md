@@ -44,10 +44,12 @@ Now use a custom loader from this project (currently 0.5) fix some problems:
 ## How to use
 
 Build the project first, using
+
 ```bash
 mvn package
 ```
 or
+
 ```bash
 mvn install
 ```
