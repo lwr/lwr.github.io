@@ -4,3 +4,17 @@
 
   {{ content }}
 </article>
+
+<footer>
+  {% if page.url != "/index.html" %}
+  <div id="return">
+     <a href="/">&laquo; Return to the home page</a>
+  </div>
+  {% endif %}
+
+  {% if page.show_comments %}
+  <br>
+  <h2>Comments</h2>
+  {% include JB/comments %}
+  {% endif %}
+</footer>

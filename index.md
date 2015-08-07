@@ -1,6 +1,7 @@
 ---
-layout: page
-title: 这家伙很懒
+layout        : page
+title         : 这家伙很懒
+show_comments : true
 ---
 {% include JB/setup %}
 
@@ -74,11 +75,11 @@ Follow me on [Twitter →](https://twitter.com/SoloCompany) （（ 话痨指数 
 ## Blog Posts
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:8 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
+    <li><a href="/archive.html">More &raquo;</a></li>
 </ul>
-
 <!---
 - - - - - - - - - -
 

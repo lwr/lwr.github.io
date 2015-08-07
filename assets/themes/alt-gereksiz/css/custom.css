@@ -86,3 +86,17 @@ h2, h3 {
 .page_tag_box a span {
     vertical-align: super;
 }
+
+
+#archive article h3 {
+    margin-left: 1.35em;
+}
+#archive article ul {
+    margin-left: 2.7em;
+}
+#archive article li {
+    list-style: none;
+}
+.posts {
+    margin-bottom: 0;
+}
