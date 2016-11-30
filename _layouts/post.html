@@ -2,6 +2,6 @@
 layout: default
 ---
 {% include custom/setup %}
-{% capture   theme_post_html %}themes/{{ site.theme.name }}/post.html{% endcapture %}
+{% capture   theme_post_html %}themes/{{ site.theme-name }}/post.html{% endcapture %}
 {% include {{theme_post_html}} %}
 {% assign    theme_post_html = nil %}
